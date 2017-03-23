@@ -1,0 +1,8 @@
+language: swift
+xcode_sdk: iphonesimulator10.2
+xcode_scheme: CI-Comparisons
+xcode_project: ./CI-Comparisons/CI-Comparisons.xcodeproj 
+before_install:
+  - brew update
+  - brea reinstall xctool
+  
