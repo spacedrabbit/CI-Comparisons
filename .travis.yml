@@ -6,3 +6,4 @@ xcode_sdk: iphonesimulator10.2
 before_install:
   - brew update
   - brew reinstall xctool
+script: xctool -project ./CI-Comparisons/CI-Comparisons.xcodeproj -scheme CI-Comparisons -sdk iphonesimulator10.2 run-tests
