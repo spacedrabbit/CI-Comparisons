@@ -6,4 +6,4 @@ xcode_sdk: iphonesimulator
 before_install:
   - brew update
   - brew reinstall xctool
-script: xctool -project CI-Comparisons/CI-Comparisons.xcodeproj -scheme CI-Comparisons -sdk iphonesimulator run-tests
+script: xctool -project CI-Comparisons/CI-Comparisons.xcodeproj -scheme CI-Comparisons -sdk iphonesimulator -configuration Debug run-tests -listTestsOnly
