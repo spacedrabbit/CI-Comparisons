@@ -1,8 +1,8 @@
-language: swift
+language: objective-c
 osx_image: xcode8.2
-xcode_sdk: iphonesimulator10.2
 xcode_scheme: CI-Comparisons
-xcode_project: ./CI-Comparisons/CI-Comparisons.xcodeproj 
+xcode_project: CI-Comparisons.xcodeproj
+xcode_sdk: iphonesimulator10.2
 before_install:
   - brew update
   - brew reinstall xctool
