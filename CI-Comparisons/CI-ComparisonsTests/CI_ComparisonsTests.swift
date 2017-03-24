@@ -10,27 +10,29 @@ import XCTest
 @testable import CI_Comparisons
 
 class CI_ComparisonsTests: XCTestCase {
+  
+  override func setUp() {
+    super.setUp()
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+  }
+  
+  override func tearDown() {
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    super.tearDown()
+  }
+  
+  func testExample() {
+    print("Testing Passing Example")
+    let yes: Bool = true
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    XCTAssert(yes, "Yes Should be true!")
+  }
+  
+  func testFailExample() {
+    print("Testing Failure Example")
+    let no: Bool = false
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+    XCTAssert(no, "No Should be False!")
+  }
+  
 }
