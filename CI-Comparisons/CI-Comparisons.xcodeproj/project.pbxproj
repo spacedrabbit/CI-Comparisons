@@ -151,6 +151,7 @@
 					};
 					14428E261E8494D2001E6B78 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3457AE227Q;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 14428E121E8494D2001E6B78;
 					};
@@ -365,6 +366,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3457AE227Q;
 				INFOPLIST_FILE = "CI-ComparisonsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyc.accessCode.CI-ComparisonsTests";
@@ -379,6 +381,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3457AE227Q;
 				INFOPLIST_FILE = "CI-ComparisonsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyc.accessCode.CI-ComparisonsTests";
